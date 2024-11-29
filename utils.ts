@@ -5,6 +5,6 @@ export const formModelToVuelo = (vueloModel: VueloModel): Vuelo => {
     id: vueloModel._id!.toString(),
     origen: vueloModel.origen,
     destino: vueloModel.destino,
-    fecha: vueloModel.fecha.toString()
+    fecha: vueloModel.fecha
   };
 };
